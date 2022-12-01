@@ -1,0 +1,8 @@
+l1 = list(range(100))
+start = 95
+
+if start + 10000 > len(l1):
+  l1[start:] + l1[:(start + 10) % len(l1)] = np.rand()
+
+else:
+	l1[start : start + 10] 
